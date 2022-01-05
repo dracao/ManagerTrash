@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pushster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <title>B-system</title>
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link rel="icon" href="../picture/B (1).png" />
+    <script src="../js/checkLogin.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <a href=""><img src="../picture/B (500 x 500 px) (4).png" alt="" /></a>
+        <div class="header__left__content">
+          <h3>
+            WEBSITE QUẢN LÍ HỆ THỐNG THÙNG RÁC THÔNG MINH - THÀNH PHỐ BÀ RỊA
+          </h3>
+          <p>Vì sự xanh sạch đẹp của thành phố</p>
+        </div>
+      </div>
+      <div class="header__right">
+        <h5>HOTLINE: 1900xxxxxx</h5>
+      </div>
+    </header>
+    <div class="board_statistics" id="board_statistics">
+      <div class="board_statistics__button">
+        <button id="button_out_statistics">X</button>
+      </div>
+      <div class="board_statistics__title">
+        <h5>THÀNH PHỐ BÀ RỊA - TỈNH BÀ RỊA - VŨNG TÀU</h5>
+      </div>
+      <div class="board_statistics__manager">
+        <div class="board_statistics__manager__left">
+          <div class="board_statistics__manager__left__car">
+            <h4>Tổng số xe:</h4>
+            <h5>3</h5>
+          </div>
+          <div class="board_statistics__manager__left__time">
+            <i class="fas fa-truck-moving"></i>
+            <p>40:00</p>
+          </div>
+        </div>
+
+        <div class="board_statistics__manager__right"></div>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="body__map">
+        <iframe
+          width="100%"
+          src="https://api.mapbox.com/styles/v1/hoanglong2003/ckxzm92do88rl14qua03nudhl.html?title=false&access_token=pk.eyJ1IjoiaG9hbmdsb25nMjAwMyIsImEiOiJja3h6bTJzZmM2dDhmMm9vNG02cDF6eXUxIn0.wRVAf4h57DtoydBPYj2tog&zoomwheel=false#12.37/10.5152/107.18931"
+          title="Streets"
+          style="border: none"
+        ></iframe>
+      </div>
+      <div class="body__tool">
+        <div class="body__tool__statistics">
+          <button
+            type="button"
+            class="btn btn-outline-success"
+            class="board_statistics active"
+            id="button_statistics"
+          >
+            Thống kê
+          </button>
+        </div>
+        <div class="body__tool__bar">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/admin.js"></script>
+  </body>
+</html>
